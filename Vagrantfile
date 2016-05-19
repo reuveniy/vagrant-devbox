@@ -7,4 +7,5 @@ Vagrant.configure(2) do |config|
     end
   end
   config.vm.provision "shell", path: "install-base.sh"
+  config.ssh.insert_key = false
 end
