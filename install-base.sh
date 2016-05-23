@@ -6,4 +6,4 @@ sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install vagrant -y
 curl -fsSL https://get.docker.com/ | sudo sh
-sudo docker pull registry
+sudo docker pull registry:2
